@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  tripweather:
+    image: tripweather
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3005:3005

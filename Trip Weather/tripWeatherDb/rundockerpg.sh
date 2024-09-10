@@ -1,0 +1,1 @@
+docker run --rm -h 127.0.0.1 -e POSTGRES_PASSWORD=password -e POSTGRES_HOST_AUTH_METHOD=trust -it -p 5433:5432/tcp postgres:alpine3.20 
